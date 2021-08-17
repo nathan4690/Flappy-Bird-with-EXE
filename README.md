@@ -1,4 +1,4 @@
-Flappy bird remade
+# Flappy bird <br>
 Made by Nhan (nathan)
 
 -----------------------
