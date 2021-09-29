@@ -2,11 +2,11 @@
 Flappy bird remake
 Made by Nhan (nathan)
 
-#######################
+-----------------------
 This is my second ever long project(more than 500 lines of code) that have tkinter included.
 A version of Flappy Bird, have fun!
 
-#######################
+-----------------------
 NOTES:
 - You can click any keyboard button or click your mouse in the game window to make the bird flap.
 - Medals are calculated with score like the following:
