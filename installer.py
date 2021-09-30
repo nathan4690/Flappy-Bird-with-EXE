@@ -22,11 +22,12 @@ if not os.path.exists("dist\\mainFlap.exe") and not os.path.exists("mainFlap.txt
 
 print("Copying EXE to main path...",end=" ")
 
-try:
-    os.rename("dist\\mainFlap.exe","mainFlap.txt")
-except:
-    pass
-os.rename("mainFlap.txt","mainFlap.exe")
+if not os.path.exists("mainFlap.exe"):
+    try:
+        os.rename("dist\\mainFlap.exe","mainFlap.txt")
+    except:
+        pass
+    os.rename("mainFlap.txt","mainFlap.exe")
 
 print("Done")
 print("Cleaning up...",end=" ")
